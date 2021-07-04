@@ -1,0 +1,24 @@
+{
+  "name": "devcamper_api",
+  "version": "1.0.0",
+  "description": "brad traversy course project",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV = production node server",
+    "dev": "nodemon server"
+  },
+  "author": "Souvik Banerjee",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.4",
+    "morgan": "^1.10.0",
+    "node-geocoder": "^3.27.0",
+    "slugify": "^1.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
